@@ -5,7 +5,7 @@ Flutter pacakage to generate dates for calandra
 
 ## This pacakage contains three functions
 <ul>
-monthlyDatesWithWeekDays -- Generate a List of Maps of Days with dates.. example-- [{Monday: 2023-02-13 00:00:00.000}]</ul>
+monthlyDates -- Generate a List of Maps of Days with dates.. It will return all dateTime object of the whole month</ul>
 <ul>
 monthlyDatesWithWeekDays --Generate a List of Maps of Days with dates.. example-- [{Monday: 2023-02-13 00:00:00.000}]</ul>
 <ul>
