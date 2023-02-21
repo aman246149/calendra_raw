@@ -1,6 +1,6 @@
 name: calendra_raw
 description: A Flutter pacakage which gives you all the dates in a format which you need to build your dream calendra.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/aman246149/raw_calendra
 
 environment:

@@ -1,12 +1,11 @@
 library calendra_raw;
 
-
 import 'package:jiffy/jiffy.dart';
 
 import 'helper_function.sdart.dart';
 
 class CalendraRaw {
-  final List<String> months = [
+  static final List<String> months = [
     "January",
     "February",
     "March",
@@ -25,7 +24,7 @@ class CalendraRaw {
   ///Month index is Required here
   ///Default year will be CurrentYear
 
-  List<DateTime> monthlyDates({required int monthIndex, int year = 0}) {
+  static List<DateTime> monthlyDates({required int monthIndex, int year = 0}) {
     int defaultYear = DateTime.now().year;
     List<DateTime> monthDays = [];
     if (year != 0) {
@@ -41,7 +40,8 @@ class CalendraRaw {
   /// Generate a List of Maps of Days with dates.. example-- [{Monday: 2023-02-13 00:00:00.000}]
   ///Month index is Required here
   ///Default year will be CurrentYear
-  List<Map> monthlyDatesWithWeekDays({required int monthIndex, int year = 0}) {
+  static List<Map> monthlyDatesWithWeekDays(
+      {required int monthIndex, int year = 0}) {
     int defaultYear = DateTime.now().year;
     List<Map<String, dynamic>> monthDaysWithDays = [];
     if (year != 0) {
@@ -59,13 +59,12 @@ class CalendraRaw {
     return monthDaysWithDays;
   }
 
-
   ///Generate whole year calendra
   ///Year is a required parameter here
   ///Example   [{0: [{Sunday: 2023-01-01 00:00:00.000}, {Monday: 2023-01-02 00:00:00.000}]
   ///It will return a map having index 0-11 represent the months
   ///
-  List<Map> generateWholeYearCalendra({required int year}) {
+  static List<Map> generateWholeYearCalendra({required int year}) {
     List<Map> dates = [];
     for (var i = 1; i <= 12; i++) {
       dates.add({i - 1: monthlyDatesWithWeekDays(monthIndex: i, year: year)});

@@ -1,30 +1,27 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
 
 Flutter pacakage to generate dates for calandra
 
 ## Features
 
-This pacakage contains three functions
-monthlyDatesWithWeekDays -- Generate a List of Maps of Days with dates.. example-- [{Monday: 2023-02-13 00:00:00.000}]
-monthlyDatesWithWeekDays --Generate a List of Maps of Days with dates.. example-- [{Monday: 2023-02-13 00:00:00.000}]
+## This pacakage contains three functions
+<ul>
+monthlyDatesWithWeekDays -- Generate a List of Maps of Days with dates.. example-- [{Monday: 2023-02-13 00:00:00.000}]</ul>
+<ul>
+monthlyDatesWithWeekDays --Generate a List of Maps of Days with dates.. example-- [{Monday: 2023-02-13 00:00:00.000}]</ul>
+<ul>
 generateWholeYearCalendra --generateWholeYearCalendra
+  </ul>
 
-![image](https://github.com/aman246149/raw_calendra/blob/main/image.png)
+![image](https://user-images.githubusercontent.com/53884276/220374125-807e8247-a86c-473b-8119-cbb0744f9c83.png)
+
 ## Getting started
 
 Install the pacakage and run flutter pub get
 Watch The example section to learn more thanks.
+
+## How To Use
+<ul>Directly call any Functions By using CalendraRaw.generateWholeYearCalendra(2023)</ul>
+
 
 ```dart
 import 'package:animations/animations.dart';
