@@ -5,9 +5,12 @@ Flutter pacakage to generate dates for calandra
 
 ## This pacakage contains three functions
 <ul>
-monthlyDatesWithWeekDays -- Generate a List of Maps of Days with dates.. example-- [{Monday: 2023-02-13 00:00:00.000}]</ul?
-monthlyDatesWithWeekDays --Generate a List of Maps of Days with dates.. example-- [{Monday: 2023-02-13 00:00:00.000}]
+monthlyDatesWithWeekDays -- Generate a List of Maps of Days with dates.. example-- [{Monday: 2023-02-13 00:00:00.000}]</ul>
+<ul>
+monthlyDatesWithWeekDays --Generate a List of Maps of Days with dates.. example-- [{Monday: 2023-02-13 00:00:00.000}]</ul>
+<ul>
 generateWholeYearCalendra --generateWholeYearCalendra
+  </ul>
 
 ![image](https://user-images.githubusercontent.com/53884276/220374125-807e8247-a86c-473b-8119-cbb0744f9c83.png)
 
@@ -15,6 +18,10 @@ generateWholeYearCalendra --generateWholeYearCalendra
 
 Install the pacakage and run flutter pub get
 Watch The example section to learn more thanks.
+
+## How To Use
+<ul>Directly call any Functions By using CalendraRaw.generateWholeYearCalendra(2023)</ul>
+
 
 ```dart
 import 'package:animations/animations.dart';
