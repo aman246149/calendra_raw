@@ -5,8 +5,8 @@ class HelperFunctions{
   static List<DateTime> getDatesBetween(DateTime startDate, DateTime endDate) {
     List<DateTime> dates = [];
     for (var d = startDate;
-    d.isBefore(endDate.add(const Duration(days: 1)));
-    d = d.add(const Duration(days: 1))) {
+        d.isBefore(endDate.add(const Duration(days: 1)));
+        d = d.add(const Duration(days: 1))) {
       dates.add(d);
     }
     return dates;
